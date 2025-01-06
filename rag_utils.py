@@ -17,7 +17,7 @@ from langchain_openai import OpenAIEmbeddings
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 from langchain.chains import create_history_aware_retriever, create_retrieval_chain
 from langchain.chains.combine_documents import create_stuff_documents_chain
-from utils.prompts import CRUSTDATA_SYSTEM_PROMPT_WITH_RAG, RAG_PROMPT
+from prompts import CRUSTDATA_SYSTEM_PROMPT_WITH_RAG, RAG_PROMPT
 
 dotenv.load_dotenv()
 

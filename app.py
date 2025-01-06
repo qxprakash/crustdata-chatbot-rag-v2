@@ -13,8 +13,8 @@ if os.name == "posix":
 from langchain_openai import ChatOpenAI
 from langchain_anthropic import ChatAnthropic
 from langchain.schema import HumanMessage, AIMessage
-from utils.constants import MODELS, DEFAULT_RAG_URLS
-from utils.rag_utils import (
+from constants import MODELS, DEFAULT_RAG_URLS
+from rag_utils import (
     load_doc_to_db,
     load_url_to_db,
     stream_llm_response,
